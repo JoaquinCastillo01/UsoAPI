@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(221, 250, 221);">
+    <h1 style="background-color: rgb(15, 73, 15); text-align: center; color: beige;">Mandar mensaje con API para Whatsapp</h1>
+    <div style="margin: 50px; text-align: center">
+        <label for="input1">Telefono: </label>
+            <input type="text" id="input1" required maxlength="10" placeholder="Ingresa un número teléfonico">
+        <br><br>
+        <label for="input2">Mensaje: </label>
+        <br><br>
+            <textarea id="input2" rows="4" cols="50" placeholder="Escribe tu mensaje aquí..."></textarea>
+        <br><br>
+        <button onclick="enviarMensaje()">Enviar</button>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
